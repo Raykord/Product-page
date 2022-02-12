@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/789156b395.js" crossorigin="anonymous"></script>
+    <title>Product</title>
+</head>
+<body>
+    <section class="layout">
+        <div class="product">
+            <div class="product__preview">
+                <div class="product__aside-img">
+                    <img class="little-img" src="images/preview/1.png" onclick="imgsrc(this)">
+                    <img class="little-img" src="images/preview/2.png" onclick="imgsrc(this)">
+                    <img class="little-img" src="images/preview/3.png" onclick="imgsrc(this)">
+                </div>
+                <div class="product__main-img">
+                    <img class="preview-img" src="images/preview/1.png" >
+                </div>
+            </div>
+            <div class="product__description">
+                <h1 class="product__title">Рубашка Medicine</h1>
+                <div class="product__catigories">
+                    <a href="#">Рубашка Medicine</a>
+                    <a href="#">Все модели Medicine</a>
+                    <a href="#">Рубашки</a>
+                </div>
+                <div class="product__price">
+                    <div class="product__price-actual">
+                        <span class="product__price-old">2699</span>
+                        <span class="product__price-curent price">2499</span>
+                    </div>
+                    <div class="product__price-discount">
+                        <div class="product__discount-value price">2 277</div>
+                        <div class="product__discount-text">— c промокодом</div>
+                    </div>
+                </div>
+                <div class="product__info">
+                    <div class="product__info-item">
+                        <img class="product__info-img" src="images/icons/check.png" alt="">
+                        <span class="product_info-text">В наличии в магазине <a href="#">Lamoda</a></span>
+                    </div>
+                    <div class="product__info-item">
+                        <img class="product__info-img" src="images/icons/car.png" alt="">
+                        <span class="product_info-text">Бесплтная доставка</span>
+                    </div>
+                </div>
+                <div class="product__counter">
+                    <div class="number" data-step="1" data-min="1" data-max="100">
+                        <input class="number-text" type="text" name="count" value="1">
+                        <a href="#" class="number-minus">−</a>
+                        <a href="#" class="number-plus">+</a>
+                    </div>
+                </div>
+                <div class="product__actions">
+                    <button class="custom-btn custom-btn--blue">Купить</button>
+                    <button class="custom-btn"> В избранное</button>
+                </div>
+                <div class="product__text">
+                    <p>Рубашка Medicine выполнена из вискозной ткани с клетчатым узором.
+                    Детали: прямой крой; отложной воротник; планка и манжеты на пуговицах; карман на груди.</p>
+                </div>
+                <div class="product__share">
+                    <span class="product__share-text">Поделиться:</span>
+                    <div class="product__share-icons">
+                        <a href="#"><img class="share__img" src="images/share/1.png" alt=""></a>
+                        <a href="#"><img class="share__img" src="images/share/2.png" alt=""></a>
+                        <a href="#"><img class="share__img" src="images/share/3.png" alt=""></a>
+                        <a href="#"><img class="share__img" src="images/share/4.png" alt=""></a>
+                    </div>
+                    <span class="product__share-counter">123</span>
+                </div>
+            </div>
+            <div class="alert">
+                <span class="fas fa exclamation-circle"></span>
+                <span class="msg">Done</span>
+                <span class="close-btn">
+                    <span class="fas fa-times"></span>
+                </span>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
